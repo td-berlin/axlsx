@@ -1,7 +1,7 @@
 require File.expand_path('../lib/axlsx/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'axlsx'
+  s.name        = 'td-axlsx'
   s.version     = Axlsx::VERSION
   s.author      = ["Randy Morgan", "Jurriaan Pruis"]
   s.email       = 'digital.ipseity@gmail.com'
@@ -21,6 +21,8 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'rubyzip', '>= 1.2.1'
   s.add_runtime_dependency "htmlentities", "~> 4.3.4"
   s.add_runtime_dependency "mimemagic", "~> 0.3"
+
+  s.metadata['allowed_push_host'] = 'https://rubygems.td-asp.com'
 
   s.add_development_dependency 'yard'
   s.add_development_dependency 'kramdown'
